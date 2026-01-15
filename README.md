@@ -31,13 +31,17 @@ The "brain" of the application is an AI Agent that operates on your specific bus
 * **Async Processing:** Built with **FastAPI** webhooks to ensure zero-latency message handling.
 * **Future-Ready:** Architecture prepared for WhatsApp and Instagram integration.
 
+
+![task Interface](./assets/task-list.png)
+*Task automation flow.*
+
+
 ![Chat Interface](./assets/chat.png)
 *Real-time AI-assisted conversation flow.*
 
 
 
-![task Interface](./assets/task-list.png)
-*Task automation flow.*
+
 
 
 
@@ -48,7 +52,7 @@ The "brain" of the application is an AI Agent that operates on your specific bus
 The system follows a clean, asynchronous architecture:
 
 * **Backend:** Python 3.11+ | FastAPI (Async) | SQLAlchemy 2.0.
-* **AI Stack:** LangGraph | LangChain | Ollama (Local LLMs) | PGVector.
+* **AI Stack:** LangGraph | LangChain | OPENAI API | PGVector.
 * **Infrastructure:** PostgreSQL | Redis | Docker & Docker Compose.
 
 #### Key API Endpoints (Architecture Preview):
