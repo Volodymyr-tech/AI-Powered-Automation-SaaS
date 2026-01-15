@@ -39,21 +39,15 @@ The "brain" of the application is an AI Agent that operates on your specific bus
 ![Chat Interface](./assets/chat.png)
 *Real-time AI-assisted conversation flow.*
 
-
-
-
-
-
-
 ---
 
 ### 🛠 Technical Architecture
 
 The system follows a clean, asynchronous architecture:
-
+* **Frontend:** HTML5 | JavaScript 
 * **Backend:** Python 3.11+ | FastAPI (Async) | SQLAlchemy 2.0.
 * **AI Stack:** LangGraph | LangChain | OPENAI API | PGVector.
-* **Infrastructure:** PostgreSQL | Redis | Docker & Docker Compose.
+* **Infrastructure:** | Centrifugo | PostgreSQL | Redis | Docker & Docker Compose.
 
 #### Key API Endpoints (Architecture Preview):
 * `POST /api/telegram/webhook/{bot_username}` — High-speed message processing.
