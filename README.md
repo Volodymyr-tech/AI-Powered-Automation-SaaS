@@ -66,5 +66,5 @@ The system follows a clean, asynchronous architecture:
 ---
 
 ### 👨‍💻 Contact & Demo
-* **Official Website:** [YourTarget.pro](https://yourtarget.pro)
+* **Free Demo:** [YourTarget.pro](https://app.yourtarget.pro/join-now)
 * **Developer:** Volodymyr Teslenko
